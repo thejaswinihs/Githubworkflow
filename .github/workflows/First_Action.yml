@@ -2,9 +2,9 @@ name: My First Workflow
 on: workflow_dispatch
 jobs:
   first-jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - name: First greetings 
-      run: echo "Hello How are you"
-    - name: Say Good Bye
-      run: echo "Good bye"
+    runs-on: ubuntu-latest
+    steps:
+      - name: First greetings 
+        run: echo "Hello How are you"
+      - name: Say Good Bye
+        run: echo "Good bye"
