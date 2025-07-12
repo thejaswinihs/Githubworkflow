@@ -5,6 +5,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: First greetings 
-        run: echo "Hello How are you"
+        run: | 
+              echo "Hello How are you"
+              echo " Iam fine , Hope you are good too "
       - name: Say Good Bye
-        run: echo "Good bye"
+        run: | 
+              echo "Good bye"
+              echo " see you in the newyork"
+        
